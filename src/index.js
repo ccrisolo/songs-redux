@@ -6,8 +6,12 @@ import { createStore } from "redux";
 import App from "./components/App/App";
 import reducers from "./reducers";
 
+const store = createStore(reducers);
+// a second arg to createStore is for applying middleware
+// most commonly that arg is redux-thunk to enable async capabillities
+
 ReactDOM.render(
-  <Provider store={createStore(reducers)}>
+  <Provider store={store}>
     <App />
   </Provider>,
   document.querySelector("#root")
