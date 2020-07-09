@@ -24,10 +24,10 @@ My suggested flow to follow in order to understand how redux work is the followi
 
 A simple overview of redux could be understated to:
 <br />
-    initializing a redux store
+    - initializing a redux store
     <br />
-    creating store reducers which compartamentalize information
+    - creating store reducers which compartamentalize information
     <br />
-    passing store to parent component so it and all children can access/manipulate
+    - passing store to parent component so it and all children can access/manipulate
     <br />
         the stores data or "state"
