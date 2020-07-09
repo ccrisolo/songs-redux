@@ -11,6 +11,9 @@ This repo has a Final and Starter branch, both including a walkthrough through i
     Final includes an indepth overview, while Starter walks you through writing out Redux
 
 # STARTER BRANCH FLOW:
+<br />
+Check final branch for in-depth overview of every step
+<br />
 
 1.) src/index
 <br />
