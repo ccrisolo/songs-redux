@@ -10,7 +10,7 @@ This repo has a Final and Starter branch, both including a walkthrough through i
 <br />
     Final includes an indepth overview, while Starter walks you through writing out Redux
 
-My suggested flow to follow in order to understand how redux work is the following files in this order...
+STARTER BRANCH FLOW:
 
 1.) src/index
 <br />
@@ -18,9 +18,9 @@ My suggested flow to follow in order to understand how redux work is the followi
 <br />
 3.) src/components/SongList
 <br />
-4.) src/actions/index
+4.) src/reducers/index
 <br />
-5.) src/reducers/index
+5.) src/actions/index
 
 
 

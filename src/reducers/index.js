@@ -10,9 +10,9 @@ export default combineReducers({
   replaceMe: () => "dummy reducer",
 });
 
-// x.) Compile or "combine" reducers
+// 4.) Compile or "combine" reducers
 //      Here we must combine our desired reducers so our store can compile them as "state"
 //      After are reducers are created, we simply add key/value pairs to the obj being passed to combineReducers
 //      *Add the following*: songs: songsReducer, and selectedSong: selectedSongReducer
 
-//      If are reducers are not yet created, we can leave this functional dummy reducer as is and revisit this
+//      The reducers are already completed so please see them for overviews
