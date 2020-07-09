@@ -10,7 +10,7 @@ This repo has a Final and Starter branch, both including a walkthrough through i
 <br />
     Final includes an indepth overview, while Starter walks you through writing out Redux
 
-STARTER BRANCH FLOW:
+# STARTER BRANCH FLOW:
 
 1.) src/index
 <br />
