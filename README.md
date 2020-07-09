@@ -3,9 +3,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Learn Redux!
 
 This project was built for learning purposes
+<br />
 Feel free to send a PR incase you would like to contribute to this tutorial
 
-This repo has a Final and Starter branch, both including informative comments
+This repo has a Final and Starter branch, both including a walkthrough through informative comments
 <br />
     Final includes an indepth overview, while Starter walks you through writing out Redux
 
