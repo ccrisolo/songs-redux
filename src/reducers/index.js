@@ -1,3 +1,6 @@
+// 5 of 6 in Suggested Flow
+
+
 import { combineReducers } from "redux";
 import songsReducer from "./songsReducer";
 import selectedSongReducer from "./selectedSongReducer";

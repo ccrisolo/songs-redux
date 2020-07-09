@@ -1,3 +1,6 @@
+// 6 (ex. 1) of 6 in Suggested Flow
+
+
 const songsReducer = () => {
     return [
       { title: "No Scrubs", duration: "4:05" },

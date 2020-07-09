@@ -1,3 +1,5 @@
+// 3 (ex. 1) of 6 in Suggested Flow
+
 import React from "react";
 import { connect } from "react-redux";
 import { selectSong } from "../../actions";

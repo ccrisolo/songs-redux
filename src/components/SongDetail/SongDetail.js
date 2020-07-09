@@ -1,3 +1,6 @@
+// 3 (ex. 2) of 6 in Suggested Flow
+
+
 import React from "react";
 import { connect } from "react-redux";
 

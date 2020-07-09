@@ -1,3 +1,6 @@
+// 6 (ex. 2) of 6 in Suggested Flow
+
+
 const selectedSongReducer = (selectedSong = null, action) => {
     if (action.type === "SONG_SELECTED") {
       return action.payload;

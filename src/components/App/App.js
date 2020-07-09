@@ -1,3 +1,6 @@
+// 2 of 6 in Suggested Flow
+
+
 import React from "react";
 import SongList from "../SongList/SongList";
 import SongDetail from "../SongDetail/SongDetail";

@@ -1,3 +1,6 @@
+// 1 of 6 in Suggested Flow
+
+
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
