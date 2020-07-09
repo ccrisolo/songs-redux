@@ -11,15 +11,23 @@ This repo has a Final and Starter branch, both including informative comments
 My suggested flow to follow in order to understand how redux work is the following files in this order...
 
 1.) src/index
+<br />
 2.) src/components/App
+<br />
 3.) src/components/SongList
+<br />
 4.) src/actions/index
+<br />
 5.) src/reducers/index
 
 
 
 A simple overview of redux could be understated to:
+<br />
     initializing a redux store
+    <br />
     creating store reducers which compartamentalize information
+    <br />
     passing store to parent component so it and all children can access/manipulate
+    <br />
         the stores data or "state"
