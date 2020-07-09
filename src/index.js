@@ -22,7 +22,7 @@ ReactDOM.render(
 //    (LINE 9) Here we initialize our redux store through createStore and pass through
 //        our reducers, reducers are the pockets we create to hold specified groups of state
 //    
-//    (LINE 13) We then pass our initialized store to our most outer component (app) with the <Provider>
+//    (LINE 14) We then pass our initialized store to our most outer component (app) with the <Provider>
 //        imported from react-redux, (react-redux is a library to integrate the two together
 //        as redux is a standalone multi-purpose framework)
 //        By doing so, <App> and all of its children componenets are allowed to connect to the store

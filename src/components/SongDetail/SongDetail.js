@@ -29,7 +29,7 @@ export default connect(mapStateToProps)(SongDetail);
 //    ----HIGHLIGHTS----
 //    Question: This class makes use of props, but why isnt props passed in at the top?
 //
-//    (LINE 34) The connect function imported from "react-redux" is what we use to "connect" any component to our
+//    (LINE 26) The connect function imported from "react-redux" is what we use to "connect" any component to our
 //      redux store, giving the component the store's "state" and the abillity to manipulate that "state".
 //      
 //      Notice how the function follows this format... connect(args)(component)
