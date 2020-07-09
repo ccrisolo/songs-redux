@@ -5,16 +5,14 @@ import { combineReducers } from "redux";
 import songsReducer from "./songsReducer";
 import selectedSongReducer from "./selectedSongReducer";
 
-
+//  dummy reducer
 export default combineReducers({
-  songs: songsReducer,
-  selectedSong: selectedSongReducer,
+  replaceMe: () => "dummy reducer",
 });
 
-//    ----HIGHLIGHTS----
-//    The combineReducers function is what compiles all of our reducers
-//      information to be held in the redux store
-//      (compiling all of the reducers ("books") into the redux store ("library"))
-//
-//    This store's information can then be accesed through what we name it as.
-//      In this example, it will be accessed through songs, and selectedSong
+// x.) Compile or "combine" reducers
+//      Here we must combine our desired reducers so our store can compile them as "state"
+//      After are reducers are created, we simply add key/value pairs to the obj being passed to combineReducers
+//      *Add the following*: songs: songsReducer, and selectedSong: selectedSongReducer
+
+//      If are reducers are not yet created, we can leave this functional dummy reducer as is and revisit this

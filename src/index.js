@@ -26,3 +26,6 @@ ReactDOM.render(
   document.querySelector("#root")
 );
 
+//  PLEASE NOTE
+//
+//  The starter version of this app will not work up until step 2 
