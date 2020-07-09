@@ -6,6 +6,7 @@ This project was built for learning purposes
 Feel free to send a PR incase you would like to contribute to this tutorial
 
 This repo has a Final and Starter branch, both including informative comments
+<br />
     Final includes an indepth overview, while Starter walks you through writing out Redux
 
 My suggested flow to follow in order to understand how redux work is the following files in this order...
