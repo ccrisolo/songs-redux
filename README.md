@@ -12,6 +12,11 @@ This repo has a Final and Starter branch, both including a walkthrough through i
 
 My suggested flow to follow in order to understand how redux work is the following files in this order...
 
+## FINAL BRANCH FLOW
+<br />
+Use this branch for an in-depth overview. Check starter branch for a step-by-step walkthrough
+<br />
+
 1.) src/index
 <br />
 2.) src/components/App
