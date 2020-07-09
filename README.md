@@ -28,6 +28,4 @@ A simple overview of redux could be understated to:
     <br />
     - creating store reducers which compartamentalize information
     <br />
-    - passing store to parent component so it and all children can access/manipulate
-    <br />
-        the stores data or "state"
+    - passing store to parent component so it and all children can access/manipulate the stores data or "state"
