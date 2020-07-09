@@ -18,3 +18,8 @@ const App = () => {
 };
 
 export default App;
+
+
+//    ----HIGHLIGHTS----
+//    Nothing special here, but since the store was "provided" to our <App> on src/index.js
+//      each of <App>'s children are ready to be connected to our redux store

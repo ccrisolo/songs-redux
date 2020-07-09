@@ -1,23 +1,17 @@
 import { combineReducers } from "redux";
+import songsReducer from "./songsReducer";
+import selectedSongReducer from "./selectedSongReducer";
 
-const songsReducer = () => {
-  return [
-    { title: "No Scrubs", duration: "4:05" },
-    { title: "Macarena", duration: "2:30" },
-    { title: "All Star", duration: "3:15" },
-    { title: "I Want it That Way", duration: "1:45" },
-  ];
-};
-
-const selectedSongReducer = (selectedSong = null, action) => {
-  if (action.type === "SONG_SELECTED") {
-    return action.payload;
-  }
-
-  return selectedSong;
-};
 
 export default combineReducers({
   songs: songsReducer,
   selectedSong: selectedSongReducer,
 });
+
+//    ----HIGHLIGHTS----
+//    The combineReducers function is what compiles all of our reducers
+//      information to be held in the redux store
+//      (compiling all of the reducers ("books") into the redux store ("library"))
+//
+//    This store's information can then be accesed through what we name it as.
+//      In this example, it will be accessed through songs, and selectedSong
