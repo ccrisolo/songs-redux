@@ -14,7 +14,7 @@ class SongList extends React.Component {
               className="ui button primary"
               onClick={() => this.props.selectSong(song)}
               // "ACTION" MANIPULATING STATE
-              //    the selectSong function is a "action" which talks with our store
+              //    the selectSong function is an "action" which talks with our store
               //    imported from our actions folder
             >
               Select

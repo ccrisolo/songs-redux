@@ -7,7 +7,8 @@ import selectedSongReducer from "./selectedSongReducer";
 
 //  dummy reducer
 export default combineReducers({
-  replaceMe: () => "dummy reducer",
+  songs: songsReducer,
+  selectedSong: selectedSongReducer
 });
 
 // 4.) Compile or "combine" reducers
